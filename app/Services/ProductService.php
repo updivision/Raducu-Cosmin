@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Services\Product;
+namespace App\Services;
 
-use App\Services\Product\Contracts\ProductInterface;
+use App\Contracts\ProductInterface;
 use App\Models\{BookProduct, FashionProduct, MusicProduct};
 use Illuminate\Support\Collection;
 use App\Http\Resources\ProductResource;
